@@ -1,0 +1,14 @@
+table {
+    padding: 30px;
+    font-family: arial; 
+    border-collapse: collapse;
+    margin-left: 100px;
+  }
+  
+ th, td,thead{
+    font-size: 20px;
+    border: 1px solid grey ;
+    text-align: center;
+    padding: 20px;
+   
+  }
