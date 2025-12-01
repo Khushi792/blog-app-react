@@ -8,7 +8,7 @@ import UserDetails from "./pages/UserDetails";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-react-blog">
       <Navbar />
       <Routes>
         {/* Default Home route */}
