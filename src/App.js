@@ -11,7 +11,6 @@ function App() {
     <Router basename="/my-react-blog">
       <Navbar />
       <Routes>
-        {/* Default Home route */}
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/blogs" element={<Blogs />} />
