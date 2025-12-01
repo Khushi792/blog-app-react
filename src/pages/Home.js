@@ -1,11 +1,19 @@
-function Home() {
+import { Link } from "react-router-dom";
+
+export default function Home() {
   return (
-    <div style={{ padding: "20px",fontSize:"20px" }}>
+    <div style={{ padding: "20px", fontSize: "20px" }}>
       <h1>Welcome to our Blog Web Application</h1>
-      <a href="Blogs" style={{fontSize:"30px",color:"blue"}}> Go To Blogs Page...</a> <br></br><br></br>
-      <a href="Users"style={{fontSize:"30px",color:"blue"}}> Go To Users Page.....</a>
-      <br></br>
+
+      <Link to="/blogs" style={{ fontSize: "30px", color: "blue" }}>
+        Go To Blogs Page...
+      </Link>
+
+      <br /><br />
+
+      <Link to="/users" style={{ fontSize: "30px", color: "blue" }}>
+        Go To Users Page...
+      </Link>
     </div>
   );
 }
-export default Home;
