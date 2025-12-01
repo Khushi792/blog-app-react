@@ -24,6 +24,7 @@ This project includes blog listing, searching, viewing Author details etc.
 •	/users – Users List
 •	/users/:id – User Details
 
+#this project is available at - https://khushi792.github.io/blog-app-react/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
